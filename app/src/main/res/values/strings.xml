@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">my budget book</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="manuel_booking">manuel booking</string>
+    <string name="shopping_list">shopping list</string>
+    <string name="fixed_costs">fixed costs</string>
+    <string name="analysis">analysis</string>
+    <string name="accounts">accounts</string>
+    <string name="support" translatable="false">Support</string>
+    <string name="help">Help</string>
+    <string name="settings">Settings</string>
+    <string name="exit" translatable="false">Exit</string>
+
+    <string-array name="symbols">
+        <item>$</item>
+        <item>€</item>
+        <item>\u00A3</item>
+    </string-array>
+</resources>

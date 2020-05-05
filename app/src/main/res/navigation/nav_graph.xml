@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+
+    <action
+        android:id="@+id/action_mainActivity_to_buchenFragment"
+        app:destination="@id/manuellBuchungFragment" />
+    <action
+        android:id="@+id/action_mainActivity_to_shoppingListFragment"
+        app:destination="@id/shoppingListFragment" />
+    <action
+        android:id="@+id/action_mainActivity_to_fixKostenFragment"
+        app:destination="@id/fixKostenFragment" />
+    <action
+        android:id="@+id/action_mainActivity_to_auswertungFragment"
+        app:destination="@id/auswertungFragment" />
+    <action
+        android:id="@+id/action_mainActivity_to_kontonFragment"
+        app:destination="@id/kontenFragment" />
+    <action
+        android:id="@+id/action_mainActivity_to_helpFragment"
+        app:destination="@id/helpFragment" />
+    <action
+        android:id="@+id/action_mainActivity_to_settingsFragment"
+        app:destination="@id/settingsFragment" />
+
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.budgetbook.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_shoppingListFragment"
+            app:destination="@id/shoppingListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.budgetbook.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/shoppingListFragment"
+        android:name="com.example.budgetbook.ShoppingListFragment"
+        android:label="fragment_shopping_list"
+        tools:layout="@layout/fragment_shopping_list" />
+    <fragment
+        android:id="@+id/auswertungFragment"
+        android:name="com.example.budgetbook.AuswertungFragment"
+        android:label="fragment_auswertung"
+        tools:layout="@layout/fragment_auswertung" />
+    <fragment
+        android:id="@+id/fixKostenFragment"
+        android:name="com.example.budgetbook.FixKostenFragment"
+        android:label="fragment_fix_kosten"
+        tools:layout="@layout/fragment_fix_kosten" />
+    <fragment
+        android:id="@+id/manuellBuchungFragment"
+        android:name="com.example.budgetbook.ManuellBuchungFragment"
+        android:label="fragment_manuell_buchung"
+        tools:layout="@layout/fragment_manuell_buchung" />
+    <fragment
+        android:id="@+id/kategorienFragment"
+        android:name="com.example.budgetbook.KategorienFragment"
+        android:label="fragment_kategorien"
+        tools:layout="@layout/fragment_kategorien" />
+    <fragment
+        android:id="@+id/bankFragment"
+        android:name="com.example.budgetbook.BankFragment"
+        android:label="fragment_bank"
+        tools:layout="@layout/fragment_bank" />
+    <fragment
+        android:id="@+id/syncFragment"
+        android:name="com.example.budgetbook.SyncFragment"
+        android:label="fragment_sync"
+        tools:layout="@layout/fragment_sync" />
+    <fragment
+        android:id="@+id/kontenFragment"
+        android:name="com.example.budgetbook.KontenFragment"
+        android:label="fragment_konten"
+        tools:layout="@layout/fragment_konten" />
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.example.budgetbook.HelpFragment"
+        android:label="fragment_help"
+        tools:layout="@layout/fragment_help" />
+</navigation>

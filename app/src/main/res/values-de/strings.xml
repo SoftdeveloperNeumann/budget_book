@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mein Haushaltsbuch</string>
+    <string name="open">Öffnen</string>
+    <string name="close">Schliessen</string>
+    <string name="manuel_booking">Manuel buchen</string>
+    <string name="shopping_list">Einkaufsliste</string>
+    <string name="fixed_costs">Fixkosten</string>
+    <string name="analysis">Auswertung</string>
+    <string name="accounts">Konten</string>
+    <string name="help">Hilfe</string>
+    <string name="settings">Einstellungen</string>
+</resources>

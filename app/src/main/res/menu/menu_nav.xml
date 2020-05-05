@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_buchen"
+            android:icon="@drawable/booking"
+            android:title="@string/manuel_booking" />
+        <item
+            android:id="@+id/nav_shopping"
+            android:icon="@drawable/list"
+            android:title="@string/shopping_list" />
+        <item
+            android:id="@+id/nav_fix"
+            android:icon="@drawable/fix"
+            android:title="@string/fixed_costs" />
+        <item
+            android:id="@+id/nav_auswertung"
+            android:icon="@drawable/analysis"
+            android:title="@string/analysis" />
+        <item
+            android:id="@+id/nav_konten"
+            android:icon="@drawable/accounts"
+            android:title="@string/accounts" />
+    </group>
+    <item android:title="@string/support" >
+        <menu >
+            <item
+                android:id="@+id/nav_Help"
+                android:icon="@drawable/help"
+                android:title="@string/help"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/settings"
+                android:title="@string/settings"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit"
+                android:title="@string/exit"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>
